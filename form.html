@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+        <style>
+            .red {
+                color: red;
+            }
+
+            .green {
+              color: green;
+            }
+
+            .blue {
+              color: blue;
+            }
+
+            .other {
+              color: darkmagenta;
+            }
+
+            div {
+              font-weight: bold;
+            }
+
+            input[name="country"] {
+              background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+
+            <div>
+                <input name="name" type="text" placeholder="Name">
+                <input name="password" type="password" placeholder="Password">
+            </div>
+
+            <div>
+                Favorite color?
+                <input name="color" type="radio" value="red"> <span class="red">Red</span>
+                <input name="color" type="radio" value="green"> <span class="green">Green</span>
+                <input name="color" type="radio" value="blue"> <span class="blue">Blue</span>
+                <input name="color" type="radio" value="other"> <span class="other">Other</span>
+            </div>
+
+            <div>
+                <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Albania">
+                    <option value="Poland">
+                    <option value="Ukraine">
+        </form>
+    </body>
+</html>
